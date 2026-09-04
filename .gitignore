@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.egg-info/
+work_dirs/
+analysis_inputs/
+analysis_outputs/
+checkpoints/*.pth
+data/*
+!data/README.md
+.DS_Store
