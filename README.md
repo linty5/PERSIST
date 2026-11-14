@@ -137,7 +137,7 @@ See the [usage guide](docs/USAGE.md) for all options, offline use and the paper'
 
 ## Training and reproduction
 
-For most applications, start with the released model, which performs well on challenging historical footage in HISTORIAN-GST12. For domain-specific adaptation or research, use the [research implementation](https://github.com/linty5/PERSIST/tree/research). We will further improve training support.
+For most applications, start with the released model, which performs well on historical footage and other challenging material. For domain-specific adaptation or research, use the [research implementation](https://github.com/linty5/PERSIST/tree/research). We will further improve training support.
 
 ## Citation
 
