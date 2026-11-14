@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="204" viewBox="0 0 640 204" role="img" aria-labelledby="title">
+  <title id="title">BMVC 2026. PERSIST: Persistent-State Discrimination for Shot Boundary Detection.</title>
+  <g text-anchor="middle" font-family="-apple-system, .SFNSText-Regular, San Francisco, Roboto, Segoe UI, Helvetica Neue, Lucida Grande, Arial, sans-serif">
+    <text x="320" y="20" fill="#843664" font-size="12.92" font-weight="750" letter-spacing="1.68">BMVC 2026</text>
+    <text x="320" y="88" fill="#843664" font-size="56.8" font-weight="750" letter-spacing="-2.556">PERSIST</text>
+    <g fill="#27242a" font-size="37.6" font-weight="700" letter-spacing="-1.316">
+      <text x="320" y="144">Persistent-State Discrimination</text>
+      <text x="320" y="188">for Shot Boundary Detection</text>
+    </g>
+  </g>
+</svg>

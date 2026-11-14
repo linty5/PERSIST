@@ -1,0 +1,18 @@
+include pyproject.toml README.md LICENSE
+include CITATION.cff
+include THIRD_PARTY_LICENSES/TransNetV2-LICENSE
+recursive-include src/persist_sbd *.py
+prune dev
+prune tests
+prune tools
+prune .git
+prune .venv
+prune build
+prune dist
+prune release
+prune assets
+prune docs
+exclude INTERNAL_*
+global-exclude *.py[cod] *.pkl *.pickle *.pth *.pt *.safetensors *.onnx *.npz *.npy
+global-exclude *.log *.out *.sbatch
+global-exclude INTERNAL_*

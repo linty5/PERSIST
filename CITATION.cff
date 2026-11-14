@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use PERSIST, please cite the BMVC 2026 paper below."
+title: "PERSIST: Persistent-State Discrimination for Shot Boundary Detection"
+type: software
+version: 1.1.0
+license: Apache-2.0
+repository-code: "https://github.com/linty5/PERSIST"
+url: "https://linty5.github.io/projects/persist/"
+authors:
+  - family-names: Lin
+    given-names: Tingyu
+  - family-names: Stippel
+    given-names: Christian
+  - family-names: Dadras
+    given-names: Armin
+  - family-names: Zenzmaier
+    given-names: Jakob
+  - family-names: Kleber
+    given-names: Florian
+  - family-names: Aigner
+    given-names: Wolfgang
+  - family-names: Sablatnig
+    given-names: Robert
+preferred-citation:
+  type: conference-paper
+  title: "PERSIST: Persistent-State Discrimination for Shot Boundary Detection"
+  authors:
+    - family-names: Lin
+      given-names: Tingyu
+    - family-names: Stippel
+      given-names: Christian
+    - family-names: Dadras
+      given-names: Armin
+    - family-names: Zenzmaier
+      given-names: Jakob
+    - family-names: Kleber
+      given-names: Florian
+    - family-names: Aigner
+      given-names: Wolfgang
+    - family-names: Sablatnig
+      given-names: Robert
+  collection-title: "Proceedings of the British Machine Vision Conference (BMVC)"
+  year: 2026
+  url: "https://arxiv.org/abs/2608.29287"

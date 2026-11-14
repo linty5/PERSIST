@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "persist_sbd"
+dynamic = ["version"]
+description = "PERSIST shot boundary detection: tells true shot changes from flashes, shake and other sudden events that do not last (BMVC 2026)."
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE", "README.md", "THIRD_PARTY_LICENSES/TransNetV2-LICENSE"]
+authors = [{name = "Tingyu Lin"}]
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.4",
+    "numpy>=1.23",
+    "opencv-python-headless>=4.10",
+    "av>=12",
+    "safetensors>=0.4",
+    "huggingface_hub>=0.20",
+    "tqdm>=4.62",
+]
+keywords = ["shot boundary detection", "video", "scene detection", "cut detection", "computer vision"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Topic :: Multimedia :: Video",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.optional-dependencies]
+decord = ["decord"]     # optional decoder used in the paper
+
+[project.scripts]
+persist_sbd = "persist_sbd.cli:main"
+
+[project.urls]
+Homepage = "https://linty5.github.io/projects/persist/"
+Paper = "https://arxiv.org/abs/2608.29287"
+Code = "https://github.com/linty5/PERSIST"
+Model = "https://huggingface.co/linty5/PERSIST"
+
+[tool.setuptools.dynamic]
+version = {attr = "persist_sbd.__version__"}
+
+[tool.setuptools]
+include-package-data = false
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["persist_sbd", "persist_sbd.*"]
+namespaces = false
