@@ -21,9 +21,10 @@
 </p>
 
 <p align="center">
-  <a href="https://arxiv.org/abs/2608.29287"><img src="assets/badges/bmvc.svg" height="24" alt="BMVC 2026"></a>
-  <a href="https://arxiv.org/abs/2608.29287"><img src="assets/badges/paper.svg" height="24" alt="Paper: arXiv 2608.29287"></a>
-  <a href="LICENSE"><img src="assets/badges/license.svg" height="24" alt="Apache License 2.0"></a>
+  <a href="https://arxiv.org/abs/2608.29287"><img src="assets/badges/bmvc.svg" height="22" alt="BMVC 2026"></a>
+  <a href="https://arxiv.org/abs/2608.29287"><img src="assets/badges/paper.svg" height="22" alt="Paper: arXiv 2608.29287"></a>
+  <a href="https://huggingface.co/linty5/PERSIST"><img src="assets/badges/huggingface.svg" height="22" alt="Hugging Face: PERSIST model"></a>
+  <a href="LICENSE"><img src="assets/badges/license.svg" height="22" alt="Apache License 2.0"></a>
 </p>
 
 <p align="center">
