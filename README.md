@@ -78,8 +78,8 @@ A sudden change alone does not mean a new shot: what separates a true boundary f
     <td><img src="assets/examples/gradual.gif" width="390" alt="Gradual transition: video and recorded boundary scores with a synchronised frame marker."></td>
   </tr>
   <tr>
-    <td><img src="assets/examples/camera-shake.gif" width="390" alt="Camera shake: PERSIST keeps boundary scores low while the shot continues."></td>
-    <td><img src="assets/examples/flicker.gif" width="390" alt="Flicker: the appearance changes briefly and returns without a new shot."></td>
+    <td><img src="assets/examples/flicker.gif" width="390" alt="Flicker: the image brightens briefly and returns without a new shot."></td>
+    <td><img src="assets/examples/camera-movement.gif" width="390" alt="Camera movement: the camera moves, but the shot continues."></td>
   </tr>
 </table>
 
