@@ -31,7 +31,7 @@
   <a href="https://arxiv.org/abs/2608.29287"><strong>Paper</strong></a> ·
   <a href="https://linty5.github.io/projects/persist/"><strong>Project page</strong></a> ·
   <a href="https://linty5.github.io/files/persist/PERSIST_BMVC2026_eposter.pdf"><strong>Poster</strong></a> ·
-  <a href="https://linty5.github.io/projects/persist/#method"><strong>Method video</strong></a> ·
+  <a href="https://huggingface.co/spaces/linty5/PERSIST"><strong>Online Demo 🔥</strong></a> ·
   <a href="https://huggingface.co/linty5/PERSIST"><strong>Model</strong></a>
 </p>
 
@@ -63,6 +63,10 @@ Process a folder and save JSON and CSV results:
 ```bash
 persist_sbd videos/ -o results -f json,csv
 ```
+
+<p align="center">
+  <a href="https://huggingface.co/spaces/linty5/PERSIST"><strong>🔥 Try Online Demo NOW 🔥</strong></a>
+</p>
 
 ## See what persists.
 
